@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Largura e altura</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <!-- Há classes que permitem alterar os atributos de altura e largura do elemento, podemos criar "colunas" com diferentes opções além do grid de 12 -->
+        <div class="container m-4">
+           <div class="w-25 bg-primary">25</div>
+           <div class="w-50 bg-info">50</div>
+           <div class="w-75 bg-danger">75</div>
+           <div class="w-100 bg-success">100</div>
+        </div>
+        <div class="container altura mb-4">
+            <div class="row h-100">
+                <div class="col-3 h-25 bg-primary">a</div>
+                <div class="col-3 h-50 bg-info">b</div>
+                <div class="col-3 h-75 bg-primary">c</div>
+                <div class="col-3 h-100 bg-info">d</div>
+            </div>
+       </div>
+    </body>
+</html>

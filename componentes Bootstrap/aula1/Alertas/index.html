@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous" defer></script>
+  
+  <title>Alertas</title>
+</head>
+<body>
+
+  <!-- Alertas -->
+  <div class="col-6 m-4">
+    <div class="alert alert-primary" role="alert">
+      Esta é uma mensagem comum do sistema!
+    </div>
+    <div class="alert alert-success" role="alert">
+      Parabéns o seu cadastro foi aprovado!
+    </div>
+    <div class="alert alert-danger" role="alert">
+      Erro ao realizar pedido no sistema, tente novamente!
+    </div>
+    <!-- com link -->
+    <div class="alert alert-warning" role="alert">
+      Não encontramos o seu pedido, faça um solicitação <a href="#" class="alert-link">clicando aqui</a>. Responderemos o quanto antes.
+    </div>
+    <!-- com mais conteúdo -->
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">Pedido realizado!</h4>
+      <p>Recebemos o seu pedido, e já estamos preparando para o envio.</p>
+      <hr>
+      <p class="mb-0">Caso você precise de mais alguma informação, entre em contato <a href="#" class="alert-link">clicando aqui</a>.</p>
+    </div>
+    <!-- com ícone de fechar -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Ops!</strong> Aconteceu algo errado no sistema.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </div>
